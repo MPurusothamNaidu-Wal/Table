@@ -11,21 +11,21 @@
 import DataTable from 'react-data-table-component';
 const pageColumns = [
     { name: 'ID', selector: (row) => row.id, sortable: true },
-    { name: 'Serial No', selector: (row) => row.serialno, sortable: true },
+    { name: 'Name', selector: (row) => row.name, sortable: true },
   ];
   const pageData = [
-    { id: 1, serialno: 111 },
-    { id: 2, serialno: 222 },
-    { id: 3, serialno: 333 },
-    { id: 4, serialno: 444 },
-    { id: 5, serialno: 555 },
-    { id: 6, serialno: 666 },
-    { id: 7, serialno: 777 },
-    { id: 8, serialno: 888 },
-    { id: 9, serialno: 999 },
-    { id: 10, serialno: 101010 },
-    { id: 11, serialno: 111111 },
-    { id: 12, serialno: 121212 },
+    { id: 1, name: "nani" },
+    { id: 2, name: "usha" },
+    { id: 3, name: "balu" },
+    { id: 4, name: "nikhil" },
+    { id: 5, name: "kumar" },
+    { id: 6, name: "uma" },
+    { id: 7, name: "cherry" },
+    { id: 8, name: "prem" },
+    { id: 9, name: "punith" },
+    { id: 10, name: "bala" },
+    { id: 11, name: "john" },
+    { id: 12, name: "hitha" },
   ];
   export const PageTable = () => {
     return (
